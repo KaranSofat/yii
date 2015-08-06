@@ -1,0 +1,9 @@
+
+Name:<?php echo $view->name  ?>
+Email:<?php echo $view->email  ?>
+Password:<?php echo $view->password  ?>
+State:<?php echo $view->state  ?>
+City:<?php echo $view->city  ?>
+
+
+

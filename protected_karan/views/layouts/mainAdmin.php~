@@ -1,0 +1,47 @@
+<?php /* @var $this Controller */ ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<!-- blueprint CSS framework -->
+<link href="<?php echo Yii::app()->request->baseUrl; ?>/css/jquery-ui.css" rel="stylesheet" type="text/css" media="all" />
+
+<link href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--<link href="<?php //echo Yii::app()->request->baseUrl; ?>/css/customerstyle.css" rel="stylesheet" type="text/css" media="all" />
+ -->
+ 
+ <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" rel="stylesheet" type="text/css" media="all" />
+
+<link href="<?php //echo Yii::app()->request->baseUrl; ?>/css/jquery.rating.css" rel="stylesheet" type="text/css" media="all" />
+
+
+<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.min.js"></script>
+<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-ui.js"></script>
+<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.yiiactiveform.js"></script>
+<script type="text/javascript"  src="<?php echo Yii::app()->request->baseUrl; ?>/js/menu.js"></script>
+<script type="text/javascript"  src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.validate.min.js"></script>
+<script type="text/javascript"  src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.rating.js"></script>
+<script type="text/javascript"  src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.twbsPagination.min.js"></script>
+
+<!-- start top js_button -->
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/easing.js"></script>
+<!-- strat-slider -->
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/modernizr.custom.28468.js"></script>
+<!-- strat-slider -->
+<link href="<?php echo Yii::app()->request->baseUrl; ?>/css/media.css" rel="stylesheet" type="text/css" media="screen" />
+
+	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+</head>
+
+<body>
+
+
+
+	<?php echo $content; ?>
+
+	
+
+</body>
+</html>
